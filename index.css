@@ -62,3 +62,36 @@ nav ul li a {
 .banner-2 {
     margin-top: 106px;
 }
+
+/* plants section */
+.plants-section {
+    margin-top: 120px;
+    margin-bottom: 210px;
+}
+.plants-section-1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+.plants-section-2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.plants-section-1, .plants-section-2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.plants-section-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 15px;
+    column-gap: 7px;
+}
+.plants-section-3-img {
+    width: 260px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.plants-section-3-text {
+    text-align: center;
+    margin-bottom: 10px;
+}
