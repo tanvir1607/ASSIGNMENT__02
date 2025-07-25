@@ -45,3 +45,20 @@ nav ul li a {
     margin-top: 30px;
     margin-bottom: 120px;
 }
+
+/* banner */
+.banner-1 {
+    margin-top: 160px;
+}
+.banner-1-title {
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner-1-text {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.banner-2 {
+    margin-top: 106px;
+}
