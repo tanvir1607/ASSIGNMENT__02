@@ -232,3 +232,66 @@ nav ul li a {
     flex-direction: column;
     gap: 15px;
 }
+
+/* join */
+.join {
+    background-image: url("./assets/news-letter-bg.png");
+    background-repeat: no-repeat;   /* Prevent tiling */
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.join-search-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.join-title {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 68px;
+    margin-bottom: 10px;
+}
+.join-search {
+    width: 600px;
+    height: 50px;
+    padding-left: 20px;
+}
+.join-button {
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: #E95A08;
+    text-align: center;
+    border: none;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer-1-text {
+    margin-top: 10px;
+}
+.footer-2 li, .footer-3 li {
+    list-style: none;
+    margin-bottom: 30px;
+}
+.footer-2 a, .footer-3 a {
+    text-decoration: none;
+    color: black;
+}
+.footer-4 img {
+    margin-left: 20px;
+}
+#twitter {
+    padding-bottom: 8px;
+}
